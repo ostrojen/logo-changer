@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Logo Changer",
-  "version": "1.2",
+  "version": "1.2.1",
   "description": "Change logo",
   "icons": {
     "48": "icon48.png"

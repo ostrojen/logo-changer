@@ -30,7 +30,8 @@ function titleClean() {
             (mutations, observer) => {
                 for (const mutation of mutations) {
                     mutation.target.innerText = mutation.target.innerText.replace('/ X', '');
-                    observer.takeRecords();
+                    observer.disconnect();
+                    titleClean();
                 }
             }
         ).observe(
